@@ -11,4 +11,4 @@ A:active {text-decoration: none;}
 A:hover {text-decoration: underline overline; color:rgb(104, 9, 119);}
 
 tr, th, td{border-color: rgb(123,40, 53) 30px; border-style:double }
-.table{width: 500%; height: 500% ;} 
+table{width: 500%; height: 500% ;} 
