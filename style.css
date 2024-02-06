@@ -3,3 +3,9 @@ h1 { Color: rgb(152, 66, 102) ; font-size: 40pt; -webkit-text-stroke-width:3px; 
 hr { border-color: rgb(123, 40, 53) ;}
 h2 { color: rgb(152, 66, 102);}
 p,ul,ol{ color: rgb(79, 33, 52) ; font-style: italic;}
+<style type="text/css">
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color:rgb(123, 40, 53);}
+</style>
