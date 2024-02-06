@@ -8,3 +8,5 @@ A:link {text-decoration: none;color:rgb(66, 6, 75);}
 A:visited {text-decoration:transparent;color:rgb(152, 66, 102);}
 A:active {text-decoration: none;}
 A:hover {text-decoration: underline overline; color:rgb(104, 9, 119);}
+
+table{ color: #000000;}
