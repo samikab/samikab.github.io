@@ -9,4 +9,4 @@ A:visited {text-decoration:transparent;color:rgb(152, 66, 102);}
 A:active {text-decoration: none;}
 A:hover {text-decoration: underline overline; color:rgb(104, 9, 119);}
 
-tr, th, td{border-color: rgb(123, 40, 53) 30px; border-style:groove;}
+tr, th, td{border-color: rgb(123,40, 53) 30px; border-style:double }
