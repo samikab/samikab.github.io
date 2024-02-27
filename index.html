@@ -8,8 +8,31 @@
     </head>
 
 
+
+
 <body>
 <h1>Samika Bhusal</h1>
+
+<div id="container">
+    <nav>
+     <div class="menu"><a href="index.html">Home</a></div>
+     <div class="nav-item">
+       <button class="btn" onmouseover="showDropdown('aboutmeDropdown')" onmouseout="hideDropdown('aboutmeDropdown')">About Me</button>
+         <div class="dropdown-content" id="aboutmeDropdown" onmouseover="showDropdown('aboutmeDropdown')" onmouseout="hideDropdown('aboutmeDropdown')">
+         <a href="MyStory.html">My Story</a>
+         <a href="Hobbies.html">Hobbies</a>
+       </div>
+     </div>
+     <div class="menu-dropdown">
+       <button class="btn" onmouseover="showDropdown('resumeDropdown')" onmouseout="hideDropdown('resumeDropdown')">Resume</button>    
+       <div class="dropdown-content" id="resumeDropdown" onmouseover="showDropdown('resumeDropdown')" onmouseout="hideDropdown('resumeDropdown')">
+         <a href="Experience.html">Experience</a>
+       </div>
+     </div>
+     <div class="menu"><`a href="Contact.html">Contact</a></div>
+    </nav>
+</div>
+
 
 <img src="images/Meee.png"  height="600" width="450" id="Pic" onclick="ChangeImageSize()">
 <hr>
